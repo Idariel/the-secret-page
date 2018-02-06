@@ -1,0 +1,10 @@
+<%= render 'header' %>
+
+<br />
+<p class="form"><Sign up:></p>
+    <%= form_for @user do |f| %>
+    <p class="form">Your mail address: <%= f.text_field :email %></p>
+    <p class="form">Your password: <%= f.text_field :password_digest %></p>
+    <p class="form">Confirm your password: <%= f.text_field :password_digest %></p>
+    <p class="formButton"><%= f.submit "Create account" %></p>
+  <% end %>
