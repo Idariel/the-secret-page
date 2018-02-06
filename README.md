@@ -1,25 +1,20 @@
-# README
+## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<center># La réponse de l'univers</center>
 
-Things you may want to cover:
+Tu vas créer un site où seuls les utilisateurs peuvent y voir le contenu. C'est topeu-secret. Pour ceci, nous allons créer des fonctions basiques de login, puis restreindre l'accès à certaines fonctionnalités du site.
 
-* Ruby version
+Tu vas créer un site où seuls les utilisateurs peuvent y voir le contenu. C'est topeu-secret. Pour ceci, nous allons créer des fonctions basiques de login, puis restreindre l'accès à certaines fonctionnalités du site.
 
-* System dependencies
+    Le site aura un model User, avec mots de passe, emails
+    Les utilisateurs devront se login pour accéder à une page de contenu ultra-secret
 
-* Configuration
 
-* Database creation
+### Some infos:
+* ruby 2.3.4
+* app : https://dashboard.heroku.com/apps/secret-il
 
-* Database initialization
+## Login / Validation
+J'ai désactivé cette partie, car je n'avais plus le CRUD
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# the-secret-page
+# thp16-secret-il
